@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.main h1 {
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 10px auto;
+
+}
+
+.main .service-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px 6%;
+    
+}
+
+.main .card {
+    text-align: center;
+    padding:20px 30px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    place-self: center;
+}
+
+.main .service-section :hover{
+    background-color: rgb(2, 246, 2);
+    transition: 1s;
+    opacity:0.6;
+}
+.main .card h2{
+    color:green;
+
+}
+.main .card p{
+    color: rgb(250, 117, 90);
+    margin-bottom: 15px;
+}
+.main .card .button{
+    background-color: green;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+
+
+
+}
